@@ -1,0 +1,10 @@
+{
+  "name": "vertex",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update:data": "node scripts/update-data.mjs",
+    "check": "node --check app.js && node --check scripts/update-data.mjs"
+  }
+}
