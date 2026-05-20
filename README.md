@@ -10,3 +10,4 @@ The site is static and deploys on GitHub Pages. It does not require private API 
 - Prediction markets: Polymarket Gamma API
 - Market snapshot: Stooq and CoinGecko via the scheduled GitHub Actions updater
 
+Deployment target: https://adfiwdnfio.github.io/vertex/
