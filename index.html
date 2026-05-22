@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css?v=20260521-terminal">
+<link rel="stylesheet" href="layout.css?v=20260521-layout">
 </head>
 <body>
 
@@ -24,10 +25,11 @@
       <span>VERTEX</span>
     </a>
     <nav class="topic-nav" aria-label="Dashboard sections">
+      <a href="#section-feed">Headlines</a>
+      <a href="#section-pulse">Pulse</a>
       <a href="#section-polymarket">Odds</a>
       <a href="#section-markets">Markets</a>
       <a href="#section-crypto">Crypto</a>
-      <a href="#section-feed">Signals</a>
     </nav>
   </div>
   <div class="header-right">
@@ -48,7 +50,25 @@
 </div>
 
 <main class="main-content" id="top">
-  <section class="terminal-panel full-width hero-panel" id="section-pulse">
+  <section class="terminal-panel full-width" id="section-feed">
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">HEADLINES</p>
+        <h2>Signal Feed</h2>
+      </div>
+      <div class="panel-meta" id="feed-meta">Loading news</div>
+    </div>
+    <div class="tab-row" id="feed-tabs" aria-label="News filters">
+      <button class="tab-button active" data-news-filter="All">All</button>
+      <button class="tab-button" data-news-filter="Crypto">Crypto</button>
+      <button class="tab-button" data-news-filter="Markets">Markets</button>
+      <button class="tab-button" data-news-filter="AI">AI</button>
+      <button class="tab-button" data-news-filter="Politics">Politics</button>
+    </div>
+    <div id="signal-feed"></div>
+  </section>
+
+  <section class="terminal-panel full-width hero-panel pulse-panel" id="section-pulse">
     <div class="panel-header hero-header">
       <div>
         <p class="eyebrow">LIVE INTELLIGENCE</p>
@@ -97,24 +117,6 @@
       <div class="panel-meta" id="crypto-meta">Loading</div>
     </div>
     <div id="crypto-content"></div>
-  </section>
-
-  <section class="terminal-panel full-width" id="section-feed">
-    <div class="panel-header">
-      <div>
-        <p class="eyebrow">HEADLINES</p>
-        <h2>Signal Feed</h2>
-      </div>
-      <div class="panel-meta" id="feed-meta">Loading news</div>
-    </div>
-    <div class="tab-row" id="feed-tabs" aria-label="News filters">
-      <button class="tab-button active" data-news-filter="All">All</button>
-      <button class="tab-button" data-news-filter="Crypto">Crypto</button>
-      <button class="tab-button" data-news-filter="Markets">Markets</button>
-      <button class="tab-button" data-news-filter="AI">AI</button>
-      <button class="tab-button" data-news-filter="Politics">Politics</button>
-    </div>
-    <div id="signal-feed"></div>
   </section>
 </main>
 

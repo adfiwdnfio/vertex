@@ -1,0 +1,42 @@
+.pulse-panel .panel-header {
+  padding: 10px 14px;
+}
+
+.pulse-panel .eyebrow {
+  margin-bottom: 2px;
+  font-size: 10px;
+}
+
+.pulse-panel h1 {
+  font-size: 21px;
+}
+
+.pulse-panel .cadence-pill {
+  min-height: 24px;
+  padding: 3px 8px;
+  font-size: 10px;
+}
+
+.pulse-panel .pulse-cell {
+  gap: 5px;
+  padding: 12px 14px;
+}
+
+.pulse-panel .pulse-value {
+  font-size: 22px;
+}
+
+#section-feed .feed-list {
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+#section-feed .feed-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+#section-feed .feed-list::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border: 3px solid var(--surface);
+  border-radius: 999px;
+}
