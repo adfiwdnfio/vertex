@@ -3,179 +3,125 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vertex — Intelligence Dashboard</title>
-<meta name="description" content="Vertex personal intelligence dashboard — markets, AI, crypto, geopolitics, and prediction markets.">
+<title>Vertex - Live Market Terminal</title>
+<meta name="description" content="Vertex live terminal for markets, crypto, AI, politics, and high-signal prediction markets.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20260521-terminal">
 </head>
 <body>
 
-<!-- === HEADER BAR === -->
 <header class="header-bar">
   <div class="header-left">
-    <div class="header-logo">
-      <svg width="24" height="24" viewBox="0 0 32 32" fill="none" aria-label="Vertex logo">
-        <polygon points="16,2 30,28 22,28 16,16 10,28 2,28" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" class="logo-accent"/>
-        <line x1="16" y1="16" x2="16" y2="28" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="logo-accent"/>
+    <a class="header-logo" href="#top" aria-label="Vertex home">
+      <svg width="24" height="24" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <polygon points="16,2 30,28 22,28 16,16 10,28 2,28" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+        <line x1="16" y1="16" x2="16" y2="28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
       <span>VERTEX</span>
-    </div>
+    </a>
+    <nav class="topic-nav" aria-label="Dashboard sections">
+      <a href="#section-polymarket">Odds</a>
+      <a href="#section-markets">Markets</a>
+      <a href="#section-crypto">Crypto</a>
+      <a href="#section-feed">Signals</a>
+    </nav>
   </div>
   <div class="header-right">
-    <span class="live-indicator" id="live-indicator" style="display:none">
-      <span class="live-dot"></span> LIVE
-    </span>
-    <span class="header-timestamp" id="header-timestamp">LIVE — Loading</span>
-    <button class="btn-refresh" id="refresh-all" aria-label="Refresh all data">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
-      REFRESH
+    <span class="live-indicator" id="live-indicator"><span class="live-dot"></span> LIVE</span>
+    <span class="header-timestamp" id="header-timestamp">Connecting live feeds</span>
+    <button class="icon-button btn-refresh" id="refresh-all" aria-label="Refresh all live data">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
     </button>
-    <span class="sentiment-badge bearish">&#x25BC; BEARISH</span>
-    <button class="btn-theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode">
-      <svg class="icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-      <svg class="icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    <button class="icon-button" id="theme-toggle" aria-label="Toggle light and dark mode">
+      <svg class="icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="icon-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
     </button>
   </div>
 </header>
 
-<!-- === TICKER STRIP === -->
-<div class="ticker-strip" aria-label="Market ticker">
+<div class="ticker-strip" aria-label="Live watchlist ticker">
   <div class="ticker-inner" id="ticker-inner"></div>
 </div>
 
-<!-- === MAIN CONTENT === -->
-<main class="main-content">
-
-  <!-- MORNING BRIEF -->
-  <section class="card full-width" id="section-brief">
-    <div class="card-header">
-      <div class="card-header-left">
-        <h1 class="card-title">BREAKING NEWS</h1>
-        <span class="card-date" id="brief-date">Loading...</span>
+<main class="main-content" id="top">
+  <section class="terminal-panel full-width hero-panel" id="section-pulse">
+    <div class="panel-header hero-header">
+      <div>
+        <p class="eyebrow">LIVE INTELLIGENCE</p>
+        <h1>Market Pulse</h1>
       </div>
-      <div class="card-header-right">
-        <span class="badge-live" id="brief-badge"><span class="live-dot"></span> LIVE</span>
-        <span class="card-collapse-icon">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </span>
-      </div>
+      <div class="cadence-grid" id="cadence-grid"></div>
     </div>
-    <div class="card-body" id="brief-content"></div>
+    <div class="pulse-grid" id="pulse-content"></div>
   </section>
 
-  <!-- CRYPTO SENTIMENT ANALYZER -->
-  <section class="card full-width" id="section-sentiment">
-    <div class="card-header">
-      <div class="card-header-left">
-        <h2 class="card-title">CRYPTO SENTIMENT ANALYZER</h2>
-        <span class="card-date" id="csa-last-update">Loading...</span>
+  <section class="terminal-panel full-width" id="section-polymarket">
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">LIVE ODDS</p>
+        <h2>Polymarket Signal Board</h2>
       </div>
-      <div class="card-header-right">
-        <button class="btn-refresh csa-refresh-btn" id="csa-refresh" aria-label="Refresh sentiment">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
-          REFRESH
-        </button>
-        <span class="badge-live" id="csa-badge" style="display:none"><span class="live-dot"></span> LIVE</span>
-        <span class="card-collapse-icon">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </span>
-      </div>
+      <div class="panel-meta" id="poly-meta">Loading markets</div>
     </div>
-    <div class="card-body" id="csa-content"></div>
+    <div class="tab-row" id="poly-tabs" aria-label="Polymarket filters">
+      <button class="tab-button active" data-poly-filter="Trending">Trending</button>
+      <button class="tab-button" data-poly-filter="Crypto">Crypto</button>
+      <button class="tab-button" data-poly-filter="Politics">Politics</button>
+      <button class="tab-button" data-poly-filter="Markets">Markets</button>
+      <button class="tab-button" data-poly-filter="AI">AI</button>
+    </div>
+    <div id="polymarket-content"></div>
   </section>
 
-  <!-- FINANCIAL MARKETS -->
-  <section class="card full-width" id="section-markets">
-    <div class="card-header">
-      <div class="card-header-left">
-        <h2 class="card-title">FINANCIAL MARKETS</h2>
+  <section class="terminal-panel" id="section-markets">
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">WATCHLIST</p>
+        <h2>Markets</h2>
       </div>
-      <div class="card-header-right">
-        <span class="badge-live"><span class="live-dot"></span> LIVE</span>
-        <span class="card-collapse-icon">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </span>
-      </div>
+      <div class="panel-meta" id="markets-meta">Loading</div>
     </div>
-    <div class="card-body" id="markets-content"></div>
+    <div id="markets-content"></div>
   </section>
 
-  <!-- BITCOIN & CRYPTO -->
-  <section class="card" id="section-crypto">
-    <div class="card-header">
-      <div class="card-header-left">
-        <h2 class="card-title">BITCOIN &amp; CRYPTO</h2>
+  <section class="terminal-panel" id="section-crypto">
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">CRYPTO</p>
+        <h2>Prices & Sentiment</h2>
       </div>
-      <div class="card-header-right">
-        <span class="badge-live" id="crypto-badge"><span class="live-dot"></span> LIVE</span>
-        <span class="card-collapse-icon">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </span>
-      </div>
+      <div class="panel-meta" id="crypto-meta">Loading</div>
     </div>
-    <div class="card-body" id="crypto-content"></div>
+    <div id="crypto-content"></div>
   </section>
 
-  <!-- AI INDUSTRY -->
-  <section class="card full-width" id="section-ai">
-    <div class="card-header">
-      <div class="card-header-left">
-        <h2 class="card-title">AI INDUSTRY</h2>
-        <span class="card-count" id="ai-count"></span>
+  <section class="terminal-panel full-width" id="section-feed">
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">HEADLINES</p>
+        <h2>Signal Feed</h2>
       </div>
-      <div class="card-header-right">
-        <span class="badge-live"><span class="live-dot"></span> LIVE</span>
-        <span class="card-collapse-icon">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </span>
-      </div>
+      <div class="panel-meta" id="feed-meta">Loading news</div>
     </div>
-    <div class="card-body" id="ai-content"></div>
-  </section>
-
-  <!-- US POLITICS -->
-  <section class="card" id="section-politics">
-    <div class="card-header">
-      <div class="card-header-left">
-        <h2 class="card-title">US POLITICS &amp; POLICY</h2>
-      </div>
-      <div class="card-header-right">
-        <span class="badge-live"><span class="live-dot"></span> LIVE</span>
-        <span class="card-collapse-icon">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </span>
-      </div>
+    <div class="tab-row" id="feed-tabs" aria-label="News filters">
+      <button class="tab-button active" data-news-filter="All">All</button>
+      <button class="tab-button" data-news-filter="Crypto">Crypto</button>
+      <button class="tab-button" data-news-filter="Markets">Markets</button>
+      <button class="tab-button" data-news-filter="AI">AI</button>
+      <button class="tab-button" data-news-filter="Politics">Politics</button>
     </div>
-    <div class="card-body" id="politics-content"></div>
+    <div id="signal-feed"></div>
   </section>
-
-  <!-- POLYMARKET -->
-  <section class="card full-width" id="section-polymarket">
-    <div class="card-header">
-      <div class="card-header-left">
-        <h2 class="card-title">POLYMARKET SIGNALS</h2>
-        <span class="card-count">27 contracts</span>
-      </div>
-      <div class="card-header-right">
-        <span class="badge-live"><span class="live-dot"></span> LIVE</span>
-        <span class="card-collapse-icon">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </span>
-      </div>
-    </div>
-    <div class="card-body" id="polymarket-content"></div>
-  </section>
-
 </main>
 
 <footer class="site-footer">
-  <span>Vertex live intelligence dashboard</span>
+  <span>Vertex live dashboard. Public, keyless data sources: CoinGecko, alternative.me, Google News RSS, Polymarket, Stooq.</span>
 </footer>
 
-<script src="app.js"></script>
+<script src="app.js?v=20260521-terminal"></script>
 </body>
 </html>
