@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T23:42:26.510Z",
+  "generatedAt": "2026-05-24T01:49:04.308Z",
   "sources": [
     "Stooq",
     "CoinGecko"
@@ -19,19 +19,19 @@
       "change": 27.800000000000182,
       "pct": 0.37336986448554443
     },
-    "DJI": {
-      "name": "DOW",
-      "price": 50579.7,
-      "prevClose": 50285.7,
-      "change": 294,
-      "pct": 0.5846592570054707
-    },
     "QQQ": {
       "name": "QQQ",
       "price": 717.54,
       "prevClose": 714.51,
       "change": 3.0299999999999727,
       "pct": 0.42406684301129066
+    },
+    "DJI": {
+      "name": "DOW",
+      "price": 50579.7,
+      "prevClose": 50285.7,
+      "change": 294,
+      "pct": 0.5846592570054707
     },
     "NVDA": {
       "name": "NVIDIA",
@@ -61,13 +61,6 @@
       "change": -34.960000000000036,
       "pct": -0.7694881231181006
     },
-    "DXY": {
-      "name": "Dollar Index",
-      "price": 99.186,
-      "prevClose": 99.218,
-      "change": -0.031999999999996476,
-      "pct": -0.032252212300183915
-    },
     "OIL": {
       "name": "Oil",
       "price": 96.6,
@@ -82,21 +75,28 @@
       "change": 0.18109999999999715,
       "pct": 0.9358399305483637
     },
+    "DXY": {
+      "name": "Dollar Index",
+      "price": 99.186,
+      "prevClose": 99.218,
+      "change": -0.031999999999996476,
+      "pct": -0.032252212300183915
+    },
     "BTC": {
       "name": "BTC",
-      "price": 76615,
-      "prevClose": 75707.38953412102,
-      "change": 907.6104658789845,
-      "pct": 1.1988399962858676
+      "price": 76735,
+      "prevClose": 75317.64751394576,
+      "change": 1417.3524860542384,
+      "pct": 1.8818331862951616
     }
   },
   "futures": {
-    "NQ": {
-      "name": "Nasdaq Futures",
-      "price": 29558.75,
-      "prevClose": 29447.25,
-      "change": 111.5,
-      "pct": 0.3786431670189916
+    "ES": {
+      "name": "S&P Futures",
+      "price": 7483.75,
+      "prevClose": 7466,
+      "change": 17.75,
+      "pct": 0.23774444146798823
     },
     "YM": {
       "name": "Dow Futures",
@@ -105,19 +105,12 @@
       "change": 283,
       "pct": 0.5617419956728001
     },
-    "ES": {
-      "name": "S&P Futures",
-      "price": 7483.75,
-      "prevClose": 7466,
-      "change": 17.75,
-      "pct": 0.23774444146798823
-    },
-    "VX": {
-      "name": "VIX Futures",
-      "price": 19.5327,
-      "prevClose": 19.3516,
-      "change": 0.18109999999999715,
-      "pct": 0.9358399305483637
+    "NQ": {
+      "name": "Nasdaq Futures",
+      "price": 29558.75,
+      "prevClose": 29447.25,
+      "change": 111.5,
+      "pct": 0.3786431670189916
     },
     "CL": {
       "name": "Oil Futures",
@@ -133,12 +126,19 @@
       "change": -19.300000000000182,
       "pct": -0.42487616951018564
     },
+    "VX": {
+      "name": "VIX Futures",
+      "price": 19.5327,
+      "prevClose": 19.3516,
+      "change": 0.18109999999999715,
+      "pct": 0.9358399305483637
+    },
     "BTC": {
       "name": "BTC",
-      "price": 76615,
-      "prevClose": 75707.38953412102,
-      "change": 907.6104658789845,
-      "pct": 1.1988399962858676
+      "price": 76735,
+      "prevClose": 75317.64751394576,
+      "change": 1417.3524860542384,
+      "pct": 1.8818331862951616
     }
   },
   "errors": []
