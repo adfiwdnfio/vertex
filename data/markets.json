@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T06:06:53.112Z",
+  "generatedAt": "2026-05-25T10:47:43.554Z",
   "sources": [
     "Stooq",
     "CoinGecko"
@@ -33,13 +33,6 @@
       "change": -4.960000000000008,
       "pct": -3.0087958750379182
     },
-    "NVDA": {
-      "name": "NVIDIA",
-      "price": 215.33,
-      "prevClose": 219.51,
-      "change": -4.179999999999978,
-      "pct": -1.9042412646348588
-    },
     "DJI": {
       "name": "DOW",
       "price": 50579.7,
@@ -47,12 +40,19 @@
       "change": 294,
       "pct": 0.5846592570054707
     },
+    "NVDA": {
+      "name": "NVIDIA",
+      "price": 215.33,
+      "prevClose": 219.51,
+      "change": -4.179999999999978,
+      "pct": -1.9042412646348588
+    },
     "GOLD": {
       "name": "Gold",
-      "price": 4553.38,
+      "price": 4570.98,
       "prevClose": 4508.32,
-      "change": 45.0600000000004,
-      "pct": 0.999485395890274
+      "change": 62.659999999999854,
+      "pct": 1.3898747205167306
     },
     "COIN": {
       "name": "Coinbase",
@@ -61,19 +61,12 @@
       "change": -8.569999999999993,
       "pct": -4.427567679272573
     },
-    "DXY": {
-      "name": "Dollar Index",
-      "price": 98.975,
-      "prevClose": 99.186,
-      "change": -0.21100000000001273,
-      "pct": -0.21273163551308927
-    },
     "OIL": {
       "name": "Oil",
-      "price": 91.14,
+      "price": 90.97,
       "prevClose": 96.6,
-      "change": -5.459999999999994,
-      "pct": -5.652173913043472
+      "change": -5.6299999999999955,
+      "pct": -5.828157349896476
     },
     "VIX": {
       "name": "VIX",
@@ -82,49 +75,56 @@
       "change": 0.18109999999999715,
       "pct": 0.9358399305483637
     },
+    "DXY": {
+      "name": "Dollar Index",
+      "price": 98.925,
+      "prevClose": 99.186,
+      "change": -0.2610000000000099,
+      "pct": -0.2631419756820619
+    },
     "BTC": {
       "name": "BTC",
-      "price": 77280,
-      "prevClose": 76740.92449850088,
-      "change": 539.0755014991155,
-      "pct": 0.702461567959924
+      "price": 77453,
+      "prevClose": 77052.72068160542,
+      "change": 400.27931839457597,
+      "pct": 0.5194875857123863
     }
   },
   "futures": {
+    "ES": {
+      "name": "S&P Futures",
+      "price": 7560.5,
+      "prevClose": 7483.75,
+      "change": 76.75,
+      "pct": 1.0255553699682647
+    },
     "NQ": {
       "name": "Nasdaq Futures",
-      "price": 29979,
+      "price": 29961,
       "prevClose": 29558.75,
-      "change": 420.25,
-      "pct": 1.4217448302110203
-    },
-    "CL": {
-      "name": "Oil Futures",
-      "price": 91.14,
-      "prevClose": 96.6,
-      "change": -5.459999999999994,
-      "pct": -5.652173913043472
-    },
-    "GC": {
-      "name": "Gold Futures",
-      "price": 4586.84,
-      "prevClose": 4523.2,
-      "change": 63.64000000000033,
-      "pct": 1.4069685178634668
+      "change": 402.25,
+      "pct": 1.3608491563411849
     },
     "YM": {
       "name": "Dow Futures",
-      "price": 51072,
+      "price": 51091,
       "prevClose": 50662,
-      "change": 410,
-      "pct": 0.8092850657297381
+      "change": 429,
+      "pct": 0.8467885199952627
     },
-    "ES": {
-      "name": "S&P Futures",
-      "price": 7562.75,
-      "prevClose": 7483.75,
-      "change": 79,
-      "pct": 1.0556205111073993
+    "CL": {
+      "name": "Oil Futures",
+      "price": 90.97,
+      "prevClose": 96.6,
+      "change": -5.6299999999999955,
+      "pct": -5.828157349896476
+    },
+    "GC": {
+      "name": "Gold Futures",
+      "price": 4605.5,
+      "prevClose": 4523.2,
+      "change": 82.30000000000018,
+      "pct": 1.8195083126989784
     },
     "VX": {
       "name": "VIX Futures",
@@ -135,10 +135,10 @@
     },
     "BTC": {
       "name": "BTC",
-      "price": 77280,
-      "prevClose": 76740.92449850088,
-      "change": 539.0755014991155,
-      "pct": 0.702461567959924
+      "price": 77453,
+      "prevClose": 77052.72068160542,
+      "change": 400.27931839457597,
+      "pct": 0.5194875857123863
     }
   },
   "errors": []
