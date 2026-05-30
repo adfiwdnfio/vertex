@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T07:17:18.856Z",
+  "generatedAt": "2026-05-30T09:26:57.467Z",
   "sources": [
     "Stooq",
     "CoinGecko"
@@ -63,10 +63,10 @@
     },
     "OIL": {
       "name": "Oil",
-      "price": 87.76,
+      "price": 87.36,
       "prevClose": 88.9,
-      "change": -1.1400000000000006,
-      "pct": -1.2823397075365586
+      "change": -1.5400000000000063,
+      "pct": -1.732283464566936
     },
     "VIX": {
       "name": "VIX",
@@ -84,20 +84,13 @@
     },
     "BTC": {
       "name": "BTC",
-      "price": 73456,
-      "prevClose": 73692.053396794,
-      "change": -236.05339679399913,
-      "pct": -0.3203240864017889
+      "price": 73457,
+      "prevClose": 73757.4009607898,
+      "change": -300.40096078980423,
+      "pct": -0.4072824650498571
     }
   },
   "futures": {
-    "ES": {
-      "name": "S&P Futures",
-      "price": 7590.25,
-      "prevClose": 7581.75,
-      "change": 8.5,
-      "pct": 0.11211131994592277
-    },
     "NQ": {
       "name": "Nasdaq Futures",
       "price": 30388.25,
@@ -105,12 +98,26 @@
       "change": 81.25,
       "pct": 0.2680898802256904
     },
+    "ES": {
+      "name": "S&P Futures",
+      "price": 7590.25,
+      "prevClose": 7581.75,
+      "change": 8.5,
+      "pct": 0.11211131994592277
+    },
     "YM": {
       "name": "Dow Futures",
-      "price": 51050,
+      "price": 51077,
       "prevClose": 50743,
-      "change": 307,
-      "pct": 0.6050095579685868
+      "change": 334,
+      "pct": 0.6582188676270618
+    },
+    "CL": {
+      "name": "Oil Futures",
+      "price": 87.36,
+      "prevClose": 88.9,
+      "change": -1.5400000000000063,
+      "pct": -1.732283464566936
     },
     "GC": {
       "name": "Gold Futures",
@@ -118,13 +125,6 @@
       "prevClose": 4532.4,
       "change": 60.600000000000364,
       "pct": 1.337039978819177
-    },
-    "CL": {
-      "name": "Oil Futures",
-      "price": 87.76,
-      "prevClose": 88.9,
-      "change": -1.1400000000000006,
-      "pct": -1.2823397075365586
     },
     "VX": {
       "name": "VIX Futures",
@@ -135,10 +135,10 @@
     },
     "BTC": {
       "name": "BTC",
-      "price": 73456,
-      "prevClose": 73692.053396794,
-      "change": -236.05339679399913,
-      "pct": -0.3203240864017889
+      "price": 73457,
+      "prevClose": 73757.4009607898,
+      "change": -300.40096078980423,
+      "pct": -0.4072824650498571
     }
   },
   "errors": []
