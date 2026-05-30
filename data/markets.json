@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T21:15:11.803Z",
+  "generatedAt": "2026-05-30T22:16:49.984Z",
   "sources": [
     "Stooq",
     "CoinGecko"
@@ -33,19 +33,19 @@
       "change": 363.5,
       "pct": 0.7174011723144329
     },
-    "MSTR": {
-      "name": "Strategy",
-      "price": 159.09,
-      "prevClose": 151.64,
-      "change": 7.450000000000017,
-      "pct": 4.912951727776324
-    },
     "NVDA": {
       "name": "NVIDIA",
       "price": 211.14,
       "prevClose": 214.25,
       "change": -3.1100000000000136,
       "pct": -1.4515752625437637
+    },
+    "MSTR": {
+      "name": "Strategy",
+      "price": 159.09,
+      "prevClose": 151.64,
+      "change": 7.450000000000017,
+      "pct": 4.912951727776324
     },
     "GOLD": {
       "name": "Gold",
@@ -84,10 +84,10 @@
     },
     "BTC": {
       "name": "BTC",
-      "price": 73870,
-      "prevClose": 73644.51912669156,
-      "change": 225.48087330843555,
-      "pct": 0.3061746834418805
+      "price": 73799,
+      "prevClose": 73377.38186499383,
+      "change": 421.618135006167,
+      "pct": 0.5745886869906212
     }
   },
   "futures": {
@@ -105,19 +105,19 @@
       "change": 81.25,
       "pct": 0.2680898802256904
     },
+    "YM": {
+      "name": "Dow Futures",
+      "price": 51077,
+      "prevClose": 50743,
+      "change": 334,
+      "pct": 0.6582188676270618
+    },
     "GC": {
       "name": "Gold Futures",
       "price": 4593,
       "prevClose": 4532.4,
       "change": 60.600000000000364,
       "pct": 1.337039978819177
-    },
-    "CL": {
-      "name": "Oil Futures",
-      "price": 87.36,
-      "prevClose": 88.9,
-      "change": -1.5400000000000063,
-      "pct": -1.732283464566936
     },
     "VX": {
       "name": "VIX Futures",
@@ -126,19 +126,19 @@
       "change": -0.3868000000000009,
       "pct": -2.1518656363525146
     },
-    "YM": {
-      "name": "Dow Futures",
-      "price": 51077,
-      "prevClose": 50743,
-      "change": 334,
-      "pct": 0.6582188676270618
+    "CL": {
+      "name": "Oil Futures",
+      "price": 87.36,
+      "prevClose": 88.9,
+      "change": -1.5400000000000063,
+      "pct": -1.732283464566936
     },
     "BTC": {
       "name": "BTC",
-      "price": 73870,
-      "prevClose": 73644.51912669156,
-      "change": 225.48087330843555,
-      "pct": 0.3061746834418805
+      "price": 73799,
+      "prevClose": 73377.38186499383,
+      "change": 421.618135006167,
+      "pct": 0.5745886869906212
     }
   },
   "errors": []
