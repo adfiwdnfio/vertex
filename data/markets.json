@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T14:27:22.198Z",
+  "generatedAt": "2026-05-31T15:52:00.039Z",
   "sources": [
     "Stooq",
     "CoinGecko"
@@ -18,6 +18,13 @@
       "prevClose": 26917.47,
       "change": 55.14999999999782,
       "pct": 0.20488552601711013
+    },
+    "NVDA": {
+      "name": "NVIDIA",
+      "price": 211.14,
+      "prevClose": 214.25,
+      "change": -3.1100000000000136,
+      "pct": -1.4515752625437637
     },
     "DJI": {
       "name": "DOW",
@@ -39,13 +46,6 @@
       "prevClose": 151.64,
       "change": 7.450000000000017,
       "pct": 4.912951727776324
-    },
-    "NVDA": {
-      "name": "NVIDIA",
-      "price": 211.14,
-      "prevClose": 214.25,
-      "change": -3.1100000000000136,
-      "pct": -1.4515752625437637
     },
     "COIN": {
       "name": "Coinbase",
@@ -84,26 +84,26 @@
     },
     "BTC": {
       "name": "BTC",
-      "price": 73470,
-      "prevClose": 73894.87117465479,
-      "change": -424.8711746547924,
-      "pct": -0.5749670686218206
+      "price": 73541,
+      "prevClose": 73843.26106119796,
+      "change": -302.2610611979617,
+      "pct": -0.4093278883599852
     }
   },
   "futures": {
-    "ES": {
-      "name": "S&P Futures",
-      "price": 7590.25,
-      "prevClose": 7581.75,
-      "change": 8.5,
-      "pct": 0.11211131994592277
-    },
     "YM": {
       "name": "Dow Futures",
       "price": 51077,
       "prevClose": 50743,
       "change": 334,
       "pct": 0.6582188676270618
+    },
+    "ES": {
+      "name": "S&P Futures",
+      "price": 7590.25,
+      "prevClose": 7581.75,
+      "change": 8.5,
+      "pct": 0.11211131994592277
     },
     "NQ": {
       "name": "Nasdaq Futures",
@@ -135,10 +135,10 @@
     },
     "BTC": {
       "name": "BTC",
-      "price": 73470,
-      "prevClose": 73894.87117465479,
-      "change": -424.8711746547924,
-      "pct": -0.5749670686218206
+      "price": 73541,
+      "prevClose": 73843.26106119796,
+      "change": -302.2610611979617,
+      "pct": -0.4093278883599852
     }
   },
   "errors": []
