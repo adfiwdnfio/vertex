@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T07:33:32.276Z",
+  "generatedAt": "2026-06-01T13:17:01.177Z",
   "sources": [
     "Stooq",
     "CoinGecko"
@@ -19,26 +19,12 @@
       "change": 55.14999999999782,
       "pct": 0.20488552601711013
     },
-    "MSTR": {
-      "name": "Strategy",
-      "price": 159.09,
-      "prevClose": 151.64,
-      "change": 7.450000000000017,
-      "pct": 4.912951727776324
-    },
     "QQQ": {
       "name": "QQQ",
       "price": 738.31,
       "prevClose": 735.6,
       "change": 2.7099999999999227,
       "pct": 0.36840674279498675
-    },
-    "NVDA": {
-      "name": "NVIDIA",
-      "price": 211.14,
-      "prevClose": 214.25,
-      "change": -3.1100000000000136,
-      "pct": -1.4515752625437637
     },
     "DJI": {
       "name": "DOW",
@@ -47,12 +33,26 @@
       "change": 363.5,
       "pct": 0.7174011723144329
     },
+    "NVDA": {
+      "name": "NVIDIA",
+      "price": 211.14,
+      "prevClose": 214.25,
+      "change": -3.1100000000000136,
+      "pct": -1.4515752625437637
+    },
+    "MSTR": {
+      "name": "Strategy",
+      "price": 159.09,
+      "prevClose": 151.64,
+      "change": 7.450000000000017,
+      "pct": 4.912951727776324
+    },
     "GOLD": {
       "name": "Gold",
-      "price": 4506.32,
+      "price": 4481.13,
       "prevClose": 4546,
-      "change": -39.68000000000029,
-      "pct": -0.8728552573691222
+      "change": -64.86999999999989,
+      "pct": -1.4269687637483477
     },
     "COIN": {
       "name": "Coinbase",
@@ -63,10 +63,10 @@
     },
     "OIL": {
       "name": "Oil",
-      "price": 90.36,
+      "price": 91.32,
       "prevClose": 87.36,
-      "change": 3,
-      "pct": 3.4340659340659343
+      "change": 3.9599999999999937,
+      "pct": 4.532967032967026
     },
     "VIX": {
       "name": "VIX",
@@ -77,54 +77,54 @@
     },
     "DXY": {
       "name": "Dollar Index",
-      "price": 98.937,
+      "price": 99.12,
       "prevClose": 98.852,
-      "change": 0.08499999999999375,
-      "pct": 0.08598713227855151
+      "change": 0.2680000000000007,
+      "pct": 0.27111237000768895
     },
     "BTC": {
       "name": "BTC",
-      "price": 72839,
-      "prevClose": 73758.23918907599,
-      "change": -919.23918907599,
-      "pct": -1.2462867866457026
+      "price": 71788,
+      "prevClose": 73846.03212726342,
+      "change": -2058.0321272634174,
+      "pct": -2.7869230992894507
     }
   },
   "futures": {
     "ES": {
       "name": "S&P Futures",
-      "price": 7616,
+      "price": 7606,
       "prevClose": 7590.25,
-      "change": 25.75,
-      "pct": 0.3392510128124897
-    },
-    "CL": {
-      "name": "Oil Futures",
-      "price": 90.36,
-      "prevClose": 87.36,
-      "change": 3,
-      "pct": 3.4340659340659343
-    },
-    "NQ": {
-      "name": "Nasdaq Futures",
-      "price": 30540.25,
-      "prevClose": 30388.25,
-      "change": 152,
-      "pct": 0.5001933313040402
+      "change": 15.75,
+      "pct": 0.20750304667171698
     },
     "YM": {
       "name": "Dow Futures",
-      "price": 51131,
+      "price": 51184,
       "prevClose": 51077,
-      "change": 54,
-      "pct": 0.10572273234528262
+      "change": 107,
+      "pct": 0.20948763631380074
+    },
+    "NQ": {
+      "name": "Nasdaq Futures",
+      "price": 30438.25,
+      "prevClose": 30388.25,
+      "change": 50,
+      "pct": 0.16453728003422374
+    },
+    "CL": {
+      "name": "Oil Futures",
+      "price": 91.32,
+      "prevClose": 87.36,
+      "change": 3.9599999999999937,
+      "pct": 4.532967032967026
     },
     "GC": {
       "name": "Gold Futures",
-      "price": 4535.5,
+      "price": 4510.42,
       "prevClose": 4593,
-      "change": -57.5,
-      "pct": -1.2519050729370782
+      "change": -82.57999999999993,
+      "pct": -1.7979534073590229
     },
     "VX": {
       "name": "VIX Futures",
@@ -135,10 +135,10 @@
     },
     "BTC": {
       "name": "BTC",
-      "price": 72839,
-      "prevClose": 73758.23918907599,
-      "change": -919.23918907599,
-      "pct": -1.2462867866457026
+      "price": 71788,
+      "prevClose": 73846.03212726342,
+      "change": -2058.0321272634174,
+      "pct": -2.7869230992894507
     }
   },
   "errors": []
