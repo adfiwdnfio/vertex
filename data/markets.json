@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T21:56:03.136Z",
+  "generatedAt": "2026-06-03T23:51:33.587Z",
   "sources": [
     "Stooq",
     "CoinGecko"
@@ -14,10 +14,10 @@
     },
     "COMP": {
       "name": "NASDAQ",
-      "price": 26853.977,
+      "price": 26853.97,
       "prevClose": 27093.9,
-      "change": -239.9230000000025,
-      "pct": -0.8855240478484178
+      "change": -239.9300000000003,
+      "pct": -0.8855498839222122
     },
     "QQQ": {
       "name": "QQQ",
@@ -33,13 +33,6 @@
       "change": -620.7000000000044,
       "pct": -1.2097575807187295
     },
-    "NVDA": {
-      "name": "NVIDIA",
-      "price": 214.82,
-      "prevClose": 222.82,
-      "change": -8,
-      "pct": -3.590341980073602
-    },
     "MSTR": {
       "name": "Strategy",
       "price": 126.545,
@@ -47,12 +40,12 @@
       "change": -9.53500000000001,
       "pct": -7.006907701352152
     },
-    "GOLD": {
-      "name": "Gold",
-      "price": 4434.54,
-      "prevClose": 4488,
-      "change": -53.460000000000036,
-      "pct": -1.1911764705882362
+    "NVDA": {
+      "name": "NVIDIA",
+      "price": 214.82,
+      "prevClose": 222.82,
+      "change": -8,
+      "pct": -3.590341980073602
     },
     "COIN": {
       "name": "Coinbase",
@@ -61,12 +54,19 @@
       "change": -10.730000000000018,
       "pct": -6.167021093166284
     },
+    "GOLD": {
+      "name": "Gold",
+      "price": 4459.74,
+      "prevClose": 4434.54,
+      "change": 25.199999999999818,
+      "pct": 0.5682663816314616
+    },
     "OIL": {
       "name": "Oil",
-      "price": 96.2,
-      "prevClose": 93.76,
-      "change": 2.4399999999999977,
-      "pct": 2.602389078498291
+      "price": 95.32,
+      "prevClose": 96.2,
+      "change": -0.8800000000000097,
+      "pct": -0.9147609147609247
     },
     "VIX": {
       "name": "VIX",
@@ -84,47 +84,47 @@
     },
     "BTC": {
       "name": "BTC",
-      "price": 65561,
-      "prevClose": 67506.60946223984,
-      "change": -1945.6094622398377,
-      "pct": -2.8821021789401557
+      "price": 64188,
+      "prevClose": 66649.6518597747,
+      "change": -2461.6518597747054,
+      "pct": -3.6934204321934256
     }
   },
   "futures": {
+    "ES": {
+      "name": "S&P Futures",
+      "price": 7532,
+      "prevClose": 7547.5,
+      "change": -15.5,
+      "pct": -0.20536601523683337
+    },
     "NQ": {
       "name": "Nasdaq Futures",
-      "price": 30495,
-      "prevClose": 30712.75,
-      "change": -217.75,
-      "pct": -0.708988937818984
+      "price": 30396.25,
+      "prevClose": 30495,
+      "change": -98.75,
+      "pct": -0.323823577635678
     },
     "YM": {
       "name": "Dow Futures",
-      "price": 50760,
-      "prevClose": 51400,
-      "change": -640,
-      "pct": -1.245136186770428
-    },
-    "GC": {
-      "name": "Gold Futures",
-      "price": 4462.5,
-      "prevClose": 4519.9,
-      "change": -57.399999999999636,
-      "pct": -1.26993960043363
+      "price": 50796,
+      "prevClose": 50760,
+      "change": 36,
+      "pct": 0.07092198581560284
     },
     "CL": {
       "name": "Oil Futures",
-      "price": 96.2,
-      "prevClose": 93.76,
-      "change": 2.4399999999999977,
-      "pct": 2.602389078498291
+      "price": 95.32,
+      "prevClose": 96.2,
+      "change": -0.8800000000000097,
+      "pct": -0.9147609147609247
     },
-    "ES": {
-      "name": "S&P Futures",
-      "price": 7547.5,
-      "prevClose": 7623.75,
-      "change": -76.25,
-      "pct": -1.0001639613051319
+    "GC": {
+      "name": "Gold Futures",
+      "price": 4486.2,
+      "prevClose": 4462.6,
+      "change": 23.599999999999454,
+      "pct": 0.5288396898668815
     },
     "VX": {
       "name": "VIX Futures",
@@ -135,10 +135,10 @@
     },
     "BTC": {
       "name": "BTC",
-      "price": 65561,
-      "prevClose": 67506.60946223984,
-      "change": -1945.6094622398377,
-      "pct": -2.8821021789401557
+      "price": 64188,
+      "prevClose": 66649.6518597747,
+      "change": -2461.6518597747054,
+      "pct": -3.6934204321934256
     }
   },
   "errors": []
