@@ -1,89 +1,32 @@
 {
-  "generatedAt": "2026-06-05T23:35:31.130Z",
+  "generatedAt": "2026-06-06T01:32:32.836Z",
   "sources": [
     "Stooq",
     "CoinGecko"
   ],
   "quotes": {
-    "NVDA": {
-      "name": "NVIDIA",
-      "price": 205.1,
-      "prevClose": 218.66,
-      "change": -13.560000000000002,
-      "pct": -6.201408579529865
-    },
-    "MSTR": {
-      "name": "Strategy",
-      "price": 120.57,
-      "prevClose": 129.37,
-      "change": -8.800000000000011,
-      "pct": -6.802195253922866
-    },
-    "COIN": {
-      "name": "Coinbase",
-      "price": 152.49,
-      "prevClose": 164.13,
-      "change": -11.639999999999986,
-      "pct": -7.091939316395532
-    },
-    "VIX": {
-      "name": "VIX",
-      "price": 16.997,
-      "prevClose": 17.6055,
-      "change": -0.6084999999999994,
-      "pct": -3.4563062679276326
-    },
     "BTC": {
       "name": "BTC",
-      "price": 60602,
-      "prevClose": 63597.585670650595,
-      "change": -2995.5856706505947,
-      "pct": -4.710219168010042
+      "price": 61217,
+      "prevClose": 63347.99864685694,
+      "change": -2130.9986468569405,
+      "pct": -3.3639557561029063
     }
   },
   "futures": {
-    "YM": {
-      "name": "Dow Futures",
-      "price": 50794,
-      "prevClose": 51671,
-      "change": -877,
-      "pct": -1.6972770025739776
-    },
-    "NQ": {
-      "name": "Nasdaq Futures",
-      "price": 28830.25,
-      "prevClose": 30488.25,
-      "change": -1658,
-      "pct": -5.4381606028551985
-    },
-    "CL": {
-      "name": "Oil Futures",
-      "price": 90.25,
-      "prevClose": 93.04,
-      "change": -2.7900000000000063,
-      "pct": -2.998710232158218
-    },
-    "GC": {
-      "name": "Gold Futures",
-      "price": 4365.3,
-      "prevClose": 4505,
-      "change": -139.69999999999982,
-      "pct": -3.1009988901220824
-    },
-    "VX": {
-      "name": "VIX Futures",
-      "price": 16.997,
-      "prevClose": 17.6055,
-      "change": -0.6084999999999994,
-      "pct": -3.4563062679276326
-    },
     "BTC": {
       "name": "BTC",
-      "price": 60602,
-      "prevClose": 63597.585670650595,
-      "change": -2995.5856706505947,
-      "pct": -4.710219168010042
+      "price": 61217,
+      "prevClose": 63347.99864685694,
+      "change": -2130.9986468569405,
+      "pct": -3.3639557561029063
     }
   },
-  "errors": []
+  "errors": [
+    "TypeError: fetch failed",
+    "TypeError: fetch failed",
+    "TypeError: fetch failed",
+    "TypeError: fetch failed",
+    "TypeError: fetch failed"
+  ]
 }
