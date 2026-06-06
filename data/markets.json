@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T01:32:32.836Z",
+  "generatedAt": "2026-06-06T05:37:52.266Z",
   "sources": [
     "Stooq",
     "CoinGecko"
@@ -7,26 +7,20 @@
   "quotes": {
     "BTC": {
       "name": "BTC",
-      "price": 61217,
-      "prevClose": 63347.99864685694,
-      "change": -2130.9986468569405,
-      "pct": -3.3639557561029063
+      "price": 60846,
+      "prevClose": 63112.81657756255,
+      "change": -2266.816577562553,
+      "pct": -3.5916897715644573
     }
   },
   "futures": {
     "BTC": {
       "name": "BTC",
-      "price": 61217,
-      "prevClose": 63347.99864685694,
-      "change": -2130.9986468569405,
-      "pct": -3.3639557561029063
+      "price": 60846,
+      "prevClose": 63112.81657756255,
+      "change": -2266.816577562553,
+      "pct": -3.5916897715644573
     }
   },
-  "errors": [
-    "TypeError: fetch failed",
-    "TypeError: fetch failed",
-    "TypeError: fetch failed",
-    "TypeError: fetch failed",
-    "TypeError: fetch failed"
-  ]
+  "errors": []
 }
