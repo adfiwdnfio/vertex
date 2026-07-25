@@ -1,27 +1,11 @@
 {
-  "generatedAt": "2026-07-24T23:26:57.897Z",
+  "generatedAt": "2026-07-25T01:03:35.942Z",
   "sources": [
     "Stooq",
     "CoinGecko"
   ],
-  "quotes": {
-    "BTC": {
-      "name": "BTC",
-      "price": 64114,
-      "prevClose": 65133.70582346718,
-      "change": -1019.7058234671786,
-      "pct": -1.5655578176849063
-    }
-  },
-  "futures": {
-    "BTC": {
-      "name": "BTC",
-      "price": 64114,
-      "prevClose": 65133.70582346718,
-      "change": -1019.7058234671786,
-      "pct": -1.5655578176849063
-    }
-  },
+  "quotes": {},
+  "futures": {},
   "errors": [
     "Error: 404 Not Found for https://stooq.com/q/l/?s=%5Espx&f=sd2t2ohlcvp&h&e=csv",
     "Error: 404 Not Found for https://stooq.com/q/l/?s=%5Endq&f=sd2t2ohlcvp&h&e=csv",
