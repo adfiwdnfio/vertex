@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T11:17:31.956Z",
+  "generatedAt": "2026-10-26T17:27:43.679Z",
   "sources": [
     "Stooq",
     "CoinGecko"
@@ -7,26 +7,26 @@
   "quotes": {
     "BTC": {
       "name": "BTC",
-      "price": 80197,
-      "prevClose": 80300.82518189262,
-      "change": -103.82518189262191,
-      "pct": -0.12929528639019167
+      "price": 80320,
+      "prevClose": 80696.49205422944,
+      "change": -376.49205422944215,
+      "pct": -0.4665531854550033
     }
   },
   "futures": {
     "BTC": {
       "name": "BTC",
-      "price": 80197,
-      "prevClose": 80300.82518189262,
-      "change": -103.82518189262191,
-      "pct": -0.12929528639019167
+      "price": 80320,
+      "prevClose": 80696.49205422944,
+      "change": -376.49205422944215,
+      "pct": -0.4665531854550033
     }
   },
   "errors": [
-    "Error: 404 Not Found for https://stooq.com/q/l/?s=%5Espx&f=sd2t2ohlcvp&h&e=csv",
-    "Error: 404 Not Found for https://stooq.com/q/l/?s=%5Endq&f=sd2t2ohlcvp&h&e=csv",
-    "Error: 404 Not Found for https://stooq.com/q/l/?s=%5Edji&f=sd2t2ohlcvp&h&e=csv",
-    "Error: 404 Not Found for https://stooq.com/q/l/?s=qqq.us&f=sd2t2ohlcvp&h&e=csv",
-    "Error: 404 Not Found for https://stooq.com/q/l/?s=nvda.us&f=sd2t2ohlcvp&h&e=csv"
+    "TypeError: fetch failed",
+    "TypeError: fetch failed",
+    "TypeError: fetch failed",
+    "TypeError: fetch failed",
+    "TypeError: fetch failed"
   ]
 }
